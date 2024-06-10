@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-primary {
+        @apply bg-primary-blue text-white font-bold py-2 px-4 rounded-lg hover:bg-primary-darkblue duration-300 ease-in-out;
+    }
+
+    .btn-secondary {
+        @apply bg-transparent border-primary-blue border-2 text-primary-blue hover:bg-primary-blue hover:text-white duration-300 ease-in-out font-bold py-2 px-4 rounded-lg;
+    }
+
+    .btn-white{
+        @apply bg-white text-primary-blue font-bold py-2 px-4 rounded-lg hover:bg-primary-darkblue hover:text-white duration-300 ease-in-out;
+    }
+}
